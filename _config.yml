@@ -1,0 +1,19 @@
+# Site settings
+title: Rian Ó Cuinneagáin blog
+email: 
+description: "I don't know what I am doing."
+baseurl: ""
+url: "http://rianoc.github.io"
+twitter_username: rianoc
+github_username:  rianoc
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+future: true
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
