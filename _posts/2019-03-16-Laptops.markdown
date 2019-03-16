@@ -37,7 +37,7 @@ Unused but still works. Boots to Lubuntu from SD card.
 
 After battery and connection to screen failed this was used as a desktop for years, finally retired in 2019. The CPU had become a big bottleneck.
 
-## Asus S200E
+## Asus S200E (2014)
 
 | | |
 |--|--|
