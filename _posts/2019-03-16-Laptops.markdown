@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "Laptops"
+excerpt: "History of laptops"
+date:   2019-03-03 14:38:00
+---
+
+# Laptops
+
+## Asus Eee 701 4G (2008)
+
+| | |
+|--|--|
+| Screen | 7in 800x480 |
+| CPU | [Intel Celeron M 1C @ 630 MHz](https://ark.intel.com/content/www/us/en/ark/products/32241/intel-celeron-m-processor-ulv-523-1m-cache-933-mhz-533-mhz-fsb.html) |
+| RAM | 512MB DDR2 (Later upgraded to 1GB)|
+| GPU | Intel GMA 900 |
+| Disk | 4GB Flash |
+| Price | €370 |
+
+## Lenovo U350 (2009)
+
+| | |
+|--|--|
+| Screen | 13.3in 1366x768 |
+| CPU | [Intel Pentium SU4100 2C @ 1.3GHz](https://ark.intel.com/content/www/us/en/ark/products/43568/intel-pentium-processor-su4100-2m-cache-1-30-ghz-800-mhz-fsb.html) |
+| RAM | 3GB DDR2 |
+| GPU | Intel GMA 4500MHD |
+| Disk | 320GB 2.5in HDD |
+| Price | €530 |
+
+## Asus S200E
+
+| | |
+|--|--|
+| Screen | 11.6in 1366x768 Touchscreen |
+| CPU | [Intel Core i3-2365M 2C+2H @1.4GHz](https://ark.intel.com/content/www/us/en/ark/products/70272/intel-core-i3-2365m-processor-3m-cache-1-40-ghz.html) |
+| RAM | 4GB DDR3 |
+| GPU | Intel HD Graphics 4000 |
+| Disk | 500GB HDD (Later upgraded to 256GB SSD) |
+| Price | £185 |
+
+## Lenovo Yoga 11S (2014)
+
+| | |
+|--|--|
+| Screen | 11.6in 1366x768 Touchscreen |
+| CPU | [Intel Core i3-4020Y 2C+2H @1.5GHz](https://ark.intel.com/content/www/us/en/ark/products/76609/intel-core-i3-4020y-processor-3m-cache-1-50-ghz.html) |
+| RAM | 4GB (Later upgraded to 8GB)|
+| GPU | Intel HD Graphics 4200 |
+| Disk | 128GB MSATA SSD |
+| Price | £490 |
+
+## HP Spectre x360 15.6" (2018)
+
+| | |
+|--|--|
+| Screen | 15.6in 3840x2160 Touchscreen |
+| CPU | [Intel Core i7-8705G 4C+4H @3.1GHz](https://ark.intel.com/content/www/us/en/ark/products/130411/intel-core-i7-8705g-processor-with-radeon-rx-vega-m-gl-graphics-8m-cache-up-to-4-10-ghz.html) |
+| RAM | 16GB DDR4 |
+| GPU | Radeon RX Vega M GL + Intel HD Graphics 630
+|
+| Disk | 1TB NVMe SSD |
+| Price | £1899 |

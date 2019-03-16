@@ -1,0 +1,159 @@
+---
+layout: post
+title:  "Phones"
+excerpt: "History of phones"
+date:   2019-03-03 17:42:00
+---
+# Phones
+
+## Nokia 3510 (2003)
+
+### Pros
+
+* Polyphonic ringtones
+
+### Cons
+
+* No downloadable games
+
+### End
+
+Replaced
+
+## Sony Ericsson V600 (2006)
+
+### Pros
+
+* Bluetooth
+* Cameras
+* FM Radio
+* MP3 Player
+
+### Cons
+
+* 32MB non expandable memory
+* Charging connector
+* Proprietary headphones
+* Terrible Proprietary software needed to transfer files
+
+### End
+
+Stolen
+
+## Samsung J600 (2007)
+
+Cool design.
+
+### End
+
+Stolen
+
+## Sony Ericsson W380i (2008)
+
+Decent.
+
+### End
+
+Dropped down stairs. Half survived a few days then died.
+
+## LG KS360 (2009)
+
+### Pros
+
+* Hardware keyboard
+
+### Cons
+
+* Slow
+* Buggy
+
+### End
+
+Replaced
+
+## Sony Ericsson Xperia Play (2011)
+
+### Pros
+
+* Bluetooth
+
+### Cons
+
+* Slow
+* Limited internal storage
+
+### End
+
+Replaced
+
+## Nokia Lumia 620 (2014/04)
+
+### Pros
+
+* Windows Phone
+
+### Cons
+
+* Small
+
+### End
+
+Replaced
+
+## Nokia Lumia 925 (2014/04)
+
+### Pros
+
+* Camera
+
+### End
+
+Bricked itself
+
+## Sony Xperias Z Ultra (2015/04)
+
+### Pros
+
+* Big screen
+
+### Cons
+
+* Bad camera
+* No flash
+* Got slow
+
+### End
+
+Cracked screen from falling over bicycle when in pannier pocket.
+
+## Nexus 5X (2016/06)
+
+### Pros
+
+* Camera
+* Performance
+
+### Cons
+
+* Battery life
+
+### End
+
+Failed (bricked) during warranty. Sold replacement.
+
+## Oneplus 3T (2017/06)
+
+### Pros
+
+* Battery life
+* Fast charging
+
+### End
+
+Failed (camera autofocus) during warranty. Sold replacement.
+
+## Oneplus 5T (2018/02)
+
+### Pros
+
+* Face unlock
