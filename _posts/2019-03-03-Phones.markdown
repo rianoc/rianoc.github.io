@@ -157,3 +157,18 @@ Failed (camera autofocus) during warranty. Sold replacement.
 ### Pros
 
 * Face unlock
+
+## Samsung S10e (2019/09)
+
+### Pros
+
+* Headphone jack
+* Vibrant screen
+* Compact
+
+### Cons
+
+* Not overly impressed with camera so far
+* Battery life looks to be a step down
+* No included fast charger (comes with 10W)
+* Speaker volume low

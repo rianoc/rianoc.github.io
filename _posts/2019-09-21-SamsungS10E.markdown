@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Samsung S10e"
+excerpt: "Samsung S10e"
+date:   2019-09-21 11:36:00
+---
+
+## Samsung S10e (2019/09)
+
+I had no problems with my Oneplus 5T but a timing opportunity came up to gift it to someone and move upgrading for myself forward. I had looked at the Oneplus 7 but it was out-of-stock, I found out since the 7T will  be released shortly so the 7 is effectively end-of-life.
+
+I went with a Samsung S10e instead. The white model was at a good price. First impressions have been mostly good. The colour was not to my liking in person, going an odd shade of blue under certain lighting. A case solved the aesthetics and also helped with ergonomics. I had found the side mounted fingerprint-reader hard to pinpoint at times before.
+
+I have an [adapter](https://www.amazon.co.uk/gp/product/B079N4ZT8W/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1) on order to try Dex which will be interesting. I already have a suitable mouse and keyboard (MX Anwhere 2S and K380 from Logitech)
+
+### Pros
+
+* Headphone jack
+* Vibrant screen
+* Compact
+
+### Cons
+
+* Not overly impressed with camera so far
+* Battery life looks to be a step down
+* No included fast charger (comes with 10W)
+* Speaker volume low
