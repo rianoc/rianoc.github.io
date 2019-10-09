@@ -5,7 +5,7 @@ excerpt: "Samsung S10e"
 date:   2019-09-21 11:36:00
 ---
 
-## Samsung S10e (2019/09)
+## Samsung S10e
 
 I had no problems with my Oneplus 5T but a timing opportunity came up to gift it to someone and move upgrading for myself forward. I had looked at the Oneplus 7 but it was out-of-stock, I found out since the 7T will  be released shortly so the 7 is effectively end-of-life.
 
@@ -21,7 +21,6 @@ I have an [adapter](https://www.amazon.co.uk/gp/product/B079N4ZT8W/ref=ppx_yo_dt
 
 ### Cons
 
-* Not overly impressed with camera so far
-* Battery life looks to be a step down
+* Battery life is a step down
 * No included fast charger (comes with 10W)
 * Speaker volume low
