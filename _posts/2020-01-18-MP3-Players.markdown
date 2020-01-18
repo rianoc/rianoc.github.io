@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "MP3 Players"
+excerpt: "History of MP3 Players"
+date:   2020-01-18 16:30:00
+---
+
+# MP3 Players
+
+## Sony Ericsson V600 (2006)
+
+This phone acted as my first MP3 player. It had 32MB of space. I had the same roughly 6 songs on it constantly. The hardship of using the proprietary buggy software to transfer new songs on to the phone was not worth changing music any more often. This was also the age of phone makers each with their own hideous connector which was the only way to get audio out of the device.
+
+## Alba ?
+
+I had for a time a horrible cheap Alba which took a full size SD card. It had no menu to speak of and took AAA batteries.
+
+## Creative ZEN V Plus
+
+This product was released in 2006, I'm not sure when exactly I got it. It was a great little device. It eventually broke in some way
+
+## Sandisk Clip+
+
+Similar to the Creative this was a solid compact player. I believe I lost this eventually.
+
+## Phones  (2011 onwards)
+
+The [Xperia Play](https://rianoc.github.io/2019/03/03/Phones/) was the first phone I had which had both a micro-sd slot and a 3.5mm headphone jack. Since then I had always used my phone rather than a dedicated mp3 player. 
+
+
+
+
+
+
