@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "Spectre"
+excerpt: "HP Spectre x360 15" Vega - CPU throttling and Bluescreens"
+date:   2020-01-18 16:31:00
+---
+
+# HP Spectre x360 15" Vega - CPU throttling and Blue-screens
+
+My [laptop](https://support.hp.com/ie-en/document/c05965543) is a very flawed product.
+
+Biggest issues being:
+
+ 1. Poor battery life
+ 2. Extreme CPU throttling
+ 3. Frequent blue-screens
+
+I had found that during heavy CPU workload the machine would throttle down to 0.8GHz. Essentially unusable. One link I noticed was that this happened much easier if the machine was charging. The charger included with the machine boasts fast charging with 150W of power. During searches I saw one [reddit comment](https://www.reddit.com/r/spectrex360/comments/9c7c6i/solution_how_to_get_rid_of_power_throttling_on/ef5nsrv?utm_source=share&utm_medium=web2x) explaining:
+
+*"I swapped out the power brick that came with the Spectre and used a USB-C power adaptor ... Now, it doesn't throttle at all."*
+
+I decided to try and do the same. I picked the [Satechi Type-C 75W](https://satechi.net/products/type-c-75w-travel-charger) which would deliver 60W to the laptop, with the remaining 15W available to it's USB ports for phones etc. I picked up a [2M Nimaso USB-C](https://www.amazon.co.uk/gp/product/B07MMPGGF9/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1) cable to use with this.
+
+So far my experiences are:
+
+ 1. Much less heat and fan noise when charging laptop
+ 2. Charging is noticeably slower
+ 3. Can now run tasks such as prime95 or Handbrake for long periods and the CPU will remain above 3GHz
+ 4. During combined prime95 and Furmark run the battery does lose charge faster than the charger can top it up. CPU settles in at 2.2-2.4GHz during this workload.
+
+To see if it helped with the blue-screens and lockups during gaming or video editing I also did a full reinstall of Windows. Since doing this I have not had any issues in short testing. I still need to use the machine more and test things like video editing before I am satisfied this issue has been solved.
