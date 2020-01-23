@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Spectre"
-excerpt: "HP Spectre x360 15" Vega - CPU throttling and Bluescreens"
+excerpt: "HP Spectre x360 15 Vega - CPU throttling and Bluescreens"
 date:   2020-01-18 16:31:00
 ---
 
