@@ -5,8 +5,6 @@ excerpt: "History of Headphones"
 date:   2020-01-18 16:27:00
 ---
 
-# Headphones
-
 ## Sennheiser CX 300
 
 Solid well prices headphones.

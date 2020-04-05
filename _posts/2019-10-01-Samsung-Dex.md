@@ -4,7 +4,6 @@ title:  "Samsung Dex"
 excerpt: "Samsung Dex"
 date:   2019-10-09 22:20:00
 ---
-# Samsung Dex
 
 Dex has been very impressive and useful. I originally thought I'd need an adapter to use it since Windows USB based version was locked to Note 10 users. Thankfully an update opened this up to other models including the S10e.
 

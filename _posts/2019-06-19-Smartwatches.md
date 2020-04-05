@@ -5,8 +5,6 @@ excerpt: "History of smartwatches"
 date:   2019-06-19 21:32:00
 ---
 
-# Smartwatches
-
 ## Sony Ericsson LiveView (2011/11)
 
 ### Pros
