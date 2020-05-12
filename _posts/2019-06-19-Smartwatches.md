@@ -63,6 +63,6 @@ Great device.
 * Battery life
 * Fast GPS lock
 * Interface - usable even when running
-* Simple onboard music - transfer files over USB
+* Simple on-board music - transfer files over USB
 * Solid charger connection
 * Fast charging

@@ -42,6 +42,7 @@ cd; curl -LO https://mrchromebox.tech/firmware-util.sh && sudo bash firmware-uti
 ```
 
 I chose option `3`
+
 ```bash
 3) Install/Update Full ROM Firmware
 ```
@@ -50,9 +51,9 @@ After that it was straight forward to go through the few menu screens. I took th
 
 ### Source iso and create bootable USB
 
-Downloaded the correct `.iso` file from the [downloads](https://galliumos.org/download) page of GalliumOS. `Haswell` for this machine.
+Download the correct `.iso` file from the [downloads](https://galliumos.org/download) page of GalliumOS. `Haswell` for this machine.
 
-I tried [rufus](https://rufus.ie/) at first but event with the correct settings (`GPT`, `UEFI`, `DD`) this was failing to boot for me. Instead I used [Etcher](https://www.balena.io/etcher/) which worked first time without any setting changes required. The wiki has a [guide](https://wiki.galliumos.org/Installing/Creating_Bootable_USB#On_Windows.2C_macOS_.28OS_X.29.2C_and_Linux_.28using_Etcher.29) if needed.
+I tried [Rufus](https://rufus.ie/) at first but even with the correct settings (`GPT`, `UEFI`, `DD`) this was failing to boot for me. Instead I used [Etcher](https://www.balena.io/etcher/) which worked first time without any setting changes required. The wiki has a [guide](https://wiki.galliumos.org/Installing/Creating_Bootable_USB#On_Windows.2C_macOS_.28OS_X.29.2C_and_Linux_.28using_Etcher.29) if needed.
 
 ### Install GalliumOS
 
@@ -60,6 +61,6 @@ Getting in to the [UEFI](https://mrchromebox.tech/#bootmodes) of the custom firm
 
 ## Summary
 
-I did find some of the back and forth between GalliumOS and Mr.Chromebox documentation a little jarring, leaving me somewhat concerned I might to brick the device. Ultimately after double checking my notes running through all the steps went smoothly.
+I did find some of the back and forth between GalliumOS and MrChromebox documentation a little jarring, leaving me somewhat concerned I might to brick the device. Ultimately after double checking my notes running through all the steps went smoothly.
 
 GalliumOS itself has been great. It boots up fast and uses small amounts of RAM and the limited 16GB SSD. WIFI and Bluetooth both worked out of the box.

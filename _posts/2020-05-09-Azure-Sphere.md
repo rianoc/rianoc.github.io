@@ -57,7 +57,7 @@ error: Image package failed to transfer to the device. Check if the image is too
 error: Failed to install debugging server to device.
 ```
 
-I tried some other things (adding product+group, resetting the device) but they all failed. I was again about to give up on this device when I saw a [note](https://social.msdn.microsoft.com/Forums/en-US/6403db30-e6a6-4880-8ad0-b12ebe7ba84f/error-could-not-send-device-capability-configuration-to-device?forum=azuresphere) from someone mentioning their internet had cause an issue entering development mode. This made me think about any external items which could be interfering. I had recently installed Kaspersky so I exited the application to test without it. Straight away I was able to enter development mode and deploy from Visual Studio.
+I tried some other things (adding product+group, resetting the device) but they all failed. I was again about to give up on this device when I saw a [note](https://social.msdn.microsoft.com/Forums/en-US/6403db30-e6a6-4880-8ad0-b12ebe7ba84f/error-could-not-send-device-capability-configuration-to-device?forum=azuresphere) from someone mentioning their internet had caused an issue entering development mode. This made me think about any external items which could be interfering. I had recently installed Kaspersky so I exited the application to test without it. Straight away I was able to enter development mode and deploy from Visual Studio.
 
 ## Plans
 
