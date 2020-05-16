@@ -11,9 +11,9 @@ Last week a new [MQTT interface](https://code.kx.com/q/interfaces/mqtt/) for kdb
 
 ## Install and setup
 
-Setup was quick using the Github [notes](https://github.com/KxSystems/mqtt#installation). My notes are for a 64bit Linux install (on my [Chromebox]({{ site.url }}/2020/04/19/Linux-Chromebox/)).
+Setup was quick using the Github [notes](https://github.com/KxSystems/mqtt#installation). My notes are for a 64bit x86 Linux install (on my [Chromebox]({{ site.url }}/2020/04/19/Linux-Chromebox/)).
 
-First grab the latest release of [paho.mqtt.c](https://github.com/eclipse/paho.mqtt.c/releases)
+First grab the latest release of [paho.mqtt.c](https://github.com/eclipse/paho.mqtt.c/releases):
 
 ```bash
 cd
