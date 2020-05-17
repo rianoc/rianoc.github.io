@@ -55,15 +55,24 @@ ser:hopen`$":fifo://",COM
 rawdata:last read0 ser;
 ```
 
-I currently only have a stub for a `crc16` checksum function and have commented out the check:
+## CRC16 checksum in q
+
+I created needed operators which are not native to `q`:
 
 ```q
-crc16:{}
-
-pyCRC:crc16 #[;x] 1+last where x=",";
-data:"," vs x;
-arduinoCRC:"I"$last data;
-/if[not pyCRC=arduinoCRC;'"Failed checksum check"];
+rs:{0b sv y xprev 0b vs x} /Right shift
+ls:{0b sv neg[y] xprev 0b vs x} /Left shift
+xor:{0b sv (<>/)vs[0b] each(x;y)} /XOR
+land:{0b sv (.q.and). vs[0b] each(x;y)} /Logical AND
 ```
 
-I will be writing that soon and will update here once complete.
+Creating `crc16` was then a case of matching the logic of [crc16_update](https://www.nongnu.org/avr-libc/user-manual/group__util__crc.html#ga95371c87f25b0a2497d9cba13190847f) and [calcCRC](https://github.com/rianoc/Arduino/blob/39539f3352771bb879ec47dc2cdd6dc7aab369bc/EnvironmentalMonitor/EnvironmentalMonitor.ino#L58). The [over](https://code.kx.com/q/ref/over/) accumulator was used in place of `for` loops:
+
+```q
+crc16:{
+ crc:0;
+ {x:xor[x;y];
+  {[x;y] $[(land[x;1])>0;xor[rs[x;1];40961];rs[x;1]]} over x,til 8
+ } over crc,`long$x
+ };
+ ```
