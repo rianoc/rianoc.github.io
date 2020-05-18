@@ -130,4 +130,33 @@ The graphed data now looks much better:
 
 ![0 temp readings]({{ site.url }}/assets/images/0drop.JPG)
 
-You will see however there is still an issue with bad readings. These are now rare, roughly once a day. The value is also always `0`. My next task is to find the source of these.
+## Checksum != Holy Grail
+
+You will see however there was still an issue with bad readings. Rare, roughly once a day with the value always being `0`. I tracked this down to the serial data arriving as `"0"`. I've commented through the code to show how this was able to slip through:
+
+```python
+#rawdata = "0"
+#No ',' is found, the empty string "" is passed to crc16 which returns 0x00
+pyCRC = hex(crc16(rawdata[0:rawdata.rfind(',')].encode('utf-8')))
+#Split results in ['0']
+data = rawdata.split(',')
+#arduinoCRC defined as 0x00
+arduinoCRC = hex(int(data[-1]))
+#No exception rasied 0x00 == 0x00
+if not pyCRC == arduinoCRC:
+  raise Exception("Failed checksum check")
+#slice notation does not error out of bounds. data now equals [0.0]
+data = list(map(float, data[0:4]))
+#temperature incorrectly published as 0.0
+client.publish("hassio/"+room+"/temperature",data[0])
+#this will raise an IndexError: list index out of range
+client.publish("hassio/"+room+"/humidity",data[1])
+```
+
+This passed the checksum test as `0x00 == 0x00`. This is a good example of relying too much on the checksum calculation. Changing the project from the ground up to send fixed width encoded data would be the robust method to add. In this case though I want to keep the data human readable so I resolved by adding back in one additional validity check to cover this edge case:
+
+```python
+data = rawdata.split(',')
+if not 6 == len(data):
+  raise Exception("Incomplete message")
+```
