@@ -42,7 +42,7 @@ chmod +x install.sh && ./install.sh
 
 ## Publishing serial data to MQTT
 
-Creating [serToMQTT.q](https://github.com/rianoc/Arduino/blob/master/EnvironmentalMonitor/serToMQTT.q) was very straight forward. The only setting change I made from the publish [example](https://github.com/KxSystems/mqtt/blob/master/examples/producer.q) was to not print from the `msgsent` call-back by simply redefining the function to do nothing:
+Creating [serToMQTT.q](https://github.com/rianoc/EnvironmentalMonitor/blob/master/serToMQTT.q) was very straight forward. The only setting change I made from the publish [example](https://github.com/KxSystems/mqtt/blob/master/examples/producer.q) was to not print from the `msgsent` call-back by simply redefining the function to do nothing:
 
 ```q
 .mqtt.msgsent:{}
@@ -66,7 +66,7 @@ xor:{0b sv (<>/)vs[0b] each(x;y)} /XOR
 land:{0b sv (.q.and). vs[0b] each(x;y)} /Logical AND
 ```
 
-Creating `crc16` was then a case of matching the logic of [crc16_update](https://www.nongnu.org/avr-libc/user-manual/group__util__crc.html#ga95371c87f25b0a2497d9cba13190847f) and [calcCRC](https://github.com/rianoc/Arduino/blob/39539f3352771bb879ec47dc2cdd6dc7aab369bc/EnvironmentalMonitor/EnvironmentalMonitor.ino#L58). The [over](https://code.kx.com/q/ref/over/) accumulator was used in place of `for` loops:
+Creating `crc16` was then a case of matching the logic of [crc16_update](https://www.nongnu.org/avr-libc/user-manual/group__util__crc.html#ga95371c87f25b0a2497d9cba13190847f) and [calcCRC](https://github.com/rianoc/EnvironmentalMonitor/blob/044d07ffdbb8c651c4f53b3846a8949b74beffbb/EnvironmentalMonitor.ino#L58). The [over](https://code.kx.com/q/ref/over/) accumulator was used in place of `for` loops:
 
 ```q
 crc16:{
