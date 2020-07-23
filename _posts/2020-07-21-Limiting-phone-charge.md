@@ -14,7 +14,7 @@ Items needed:
 
 The app is needed because it reports your phones battery level to Home Assistant as a sensor input.
 
-Upon first search no clear answer came up in forums but in the end I was able to figure out how to complete what I needed to do. The key tool was [Node-RED](https://nodered.org/) which made it easy to draw up the logic needed.
+The key tool to complete the task is [Node-RED](https://nodered.org/) which makes it easy to draw up the logic needed.
 
 ![node red]({{ site.url }}/assets/images/node.JPG)
 
@@ -30,6 +30,15 @@ The nodes are:
 Now my phone will charge to 80%, then the plug will turn off. If the phone drops below 60% the plug will turn back on again.
 
 I have a similar plan to do this for my laptop. As I am currently working from home it is constantly plugged in at 100%. To achieve the same logic I  need to investigate how to publish the battery level to Home Assistant as there is no native app like there is for a smartphone.
+
+![node red]({{ site.url }}/assets/images/charge.JPG)
+
+After running overnight the graph shows the automation in action:
+
+* 22:39 - 38% - Phone put charging
+* 23:15 - 85% - Automation turns off plug to stop charging
+* 08:55 - 58% - Charge dropped to less than 60%, plug turned on
+* 09:40 - 90% - Automation turns off plug again
 
 This is the JSON of the flow which can be imported:
 
