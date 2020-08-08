@@ -26,33 +26,33 @@ The steps then were to:
 1. Create a `packages` folder inside the `config` folder.
 2. Add an include instruction in the `homeassistant` section of `configuration.yaml`
 
-```yaml
-homeassistant:
-  customize: !include customize.yaml
-  packages: !include_dir_named packages #<-- This line
-```
+    ```yaml
+    homeassistant:
+    customize: !include customize.yaml
+    packages: !include_dir_named packages #<-- This line
+    ```
 
 3. Paste in the code from the [link](https://community.home-assistant.io/t/streaming-radio-on-hassio/58619/7) to `packages/chromecast_radio.yaml`
 4. I used [Configuration Validation](https://www.home-assistant.io/getting-started/configuration/#:~:text=Do%20this%20by%20clicking%20on,Mode%E2%80%9D%20on%20your%20user%20profile.) which is found in `Configuration -> Server Controls` in the UI. This flagged that I needed to delete a line with a deprecated setting from the code: `hide_entity: True`.
 5. I then added a card to my dashboard with the new entities. These were available after reloading my configuration again from the `Server Controls` tab. The card yaml is below:
 
-```yaml
-type: entities
-title: Radio
-entities:
-  - entity: input_select.radio_station
-  - entity: input_select.chromecast_radio
-  - entity: script.radio
-  - entity: input_number.volume_radio
-```
+    ```yaml
+    type: entities
+    title: Radio
+    entities:
+    - entity: input_select.radio_station
+    - entity: input_select.chromecast_radio
+    - entity: script.radio
+    - entity: input_number.volume_radio
+    ```
 
-![Radio card]({{ site.url }}/assets/images/radio.JPG)
+    ![Radio card]({{ site.url }}/assets/images/radio.JPG)
 
 6. I edited `chromecast_radio.yaml` to have the correct names of my Chromecast devices. I tested on of the existing stations to prove all was working correctly.
 7. I searched [radio-browser.info](http://www.radio-browser.info/) to find links for the radio stations I wanted and edited the file to include include them:
 
-* [RTÉ Radio 1](http://icecast2.rte.ie/radio1)
-* [RTÉ Raidió na Gaeltachta](http://icecast1.rte.ie/rnag)
+    * [RTÉ Radio 1](http://icecast2.rte.ie/radio1)
+    * [RTÉ Raidió na Gaeltachta](http://icecast1.rte.ie/rnag)
 
 8. I removed the `Listen Radio` automation as I wanted to click the `EXECUTE` button after I chose station & speakers rather than it triggering after I edited station alone.
 
