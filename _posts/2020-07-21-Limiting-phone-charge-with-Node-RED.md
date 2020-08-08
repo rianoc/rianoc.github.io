@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Limiting phone charge using Home Assistant"
-excerpt: "Limiting phone charge using Home Assistant"
+title:  "Limiting phone charge using Home Assistant and Node-RED"
+excerpt: "Limiting phone charge using Home Assistant and Node-RED"
 date:   2020-07-21 21:20:00
 ---
 
