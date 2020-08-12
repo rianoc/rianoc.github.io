@@ -58,4 +58,4 @@ The steps then were to:
 
 My full [chromecast_radio.yaml]({{ site.url }}/assets/code/chromecast_radio.yaml) is available. Originally I had embedded it in a code block in this post but github pages build failed with an unknown [Liquid tag](https://docs.github.com/en/github/working-with-github-pages/troubleshooting-jekyll-build-errors-for-github-pages-sites#unknown-tag-error) error.
 
-Now I can control radio from the UI in Home Assistant but this still requires a device with a web browser to operate. I will cover how I automated starting a stream with a single button press in my next post.
+Now I can control radio from the UI in Home Assistant but this still requires a device with a web browser to operate. I will cover how I automated starting a stream with a single button press in my next [post](https://rianoc.github.io/2020/08/12/Sonoff-Zigbee/).
