@@ -26,7 +26,23 @@ Strictly speaking custom firmware may not have been needed but was listed as rec
 
 ### Disable firmware write protect
 
-The machine needed to be put in to developer mode to enable the writing of custom firmware and installation of the new OS. For this machine this required removing an internal screw (easy). I found a guide for this and a picture on [kodi.wiki](https://kodi.wiki/view/Chromebox#Device_Preparation).
+The machine needed to be put in to developer mode to enable the writing of custom firmware and installation of the new OS. For this machine this required removing an internal screw (easy). I found a guide for this which was originally on ~~[kodi.wiki](https://kodi.wiki/view/Chromebox#Device_Preparation)~~ but since has been deleted so I have replicated below:
+
+With the device powered off and unplugged:
+
+1. Remove (4) rubber feet from bottom of unit
+2. Remove (4) screws under rubber feet
+3. Take off the bottom cover.
+    Tip: Thread two of the screws that you just removed into the VESA mounting holes, and use them to pull/separate bottom cover.
+4. Remove write-protect screw circled below:
+
+    ![Write protect screw]({{ site.url }}/assets/images/screw.jpg)
+
+5. Reassemble in reverse order
+
+**Important**: The write-protect screw should be left out permanently.
+
+
 
 ### Enable developer mode
 
