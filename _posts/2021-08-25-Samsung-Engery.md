@@ -5,12 +5,12 @@ excerpt: "Enabling SmartThings plugs on the new Home Assistant energy dashboard"
 date:   2021-08-25 22:00:00
 ---
 
-I wanted to get some smartplugs with built in energy monitoring, specifically Zigbee models.
+I wanted to get some smart plugs with built in energy monitoring, specifically Zigbee models.
 There are not many but the Samsung SmartThings models are suitable and [supported](https://www.zigbee2mqtt.io/devices/GP-WOU019BBDWG.html) by Zigbee2MQTT.
 
 They connect immediately to my Sonoff CC2531 [dongle](https://itead.cc/product/cc2531-usb-dongle/) and appeared in Home Assistant.
 
-As it happened they arrived just after Home Assistant had released their [Energy Managment](https://www.home-assistant.io/blog/2021/08/04/home-energy-management/) system. When I tried to add them to the energy dashboard nothing was listed apart from a vague error "`No matching statistics found`" and a link to [documentation](https://developers.home-assistant.io/docs/core/entity/sensor/#long-term-statistics). The documentation was also not so clear to me. Eventually I saw some forum threads and was able to piece together what was needed.
+As it happened they arrived just after Home Assistant had released their [Energy Management](https://www.home-assistant.io/blog/2021/08/04/home-energy-management/) system. When I tried to add them to the energy dashboard nothing was listed apart from a vague error "`No matching statistics found`" and a link to [documentation](https://developers.home-assistant.io/docs/core/entity/sensor/#long-term-statistics). The documentation was also not so clear to me. Eventually I saw some forum threads and was able to piece together what was needed.
 
 I edited `configuration.yaml` with the following entries:
 
@@ -24,6 +24,19 @@ homeassistant:
     sensor.samsung2_energy:
       last_reset: "2021-07-30T00:00:00+00:00"
       state_class: measurement
+      device_class: energy
+```
+
+**Update:** This has changed since late 2021. <https://developers.home-assistant.io/blog/2021/08/16/state_class_total/>
+
+```yaml
+homeassistant:
+  customize:
+    sensor.samsung1_energy:
+      state_class: total_increasing 
+      device_class: energy
+    sensor.samsung2_energy:
+      state_class: total_increasing 
       device_class: energy
 ```
 
