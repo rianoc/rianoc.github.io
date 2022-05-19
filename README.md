@@ -2,4 +2,4 @@
 
 A [Jekyll](http://jekyllrb.com/) based blog.
 
-[https://rianoc.github.io/](https://rianoc.github.io/)
+[http://www.rianoc.com/](http://www.rianoc.com/)

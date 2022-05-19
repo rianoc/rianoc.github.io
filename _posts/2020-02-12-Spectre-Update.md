@@ -5,7 +5,7 @@ excerpt: "Update on issues with HP Spectre x360 15 Vega"
 date:   2020-02-12 21:38:00
 ---
 
-Following on from my first post on my [Spectre](https://rianoc.github.io/2020/01/18/spectre/) laptop I found an issue.
+Following on from my first post on my [Spectre]({{ site.url }}/2020/01/18/spectre/) laptop I found an issue.
 After reinstalling Windows my keyboard would no longer turn off when I rotated the machine in to tablet mode.
 The rotation sensor was also no working. I went through ensuring I had installed all drivers but had no success.
 There was no good leads in online sources either.

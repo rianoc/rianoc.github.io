@@ -18,7 +18,7 @@ The [SNZB-01](https://sonoff.tech/product/smart-home-security/snzb-01) button is
 
 * **Single press:** Toggle a Philips hue light + a Sonoff 26 plug with a string of LEDs plugged in to it.
 * **Double press:** Toggle a Sonoff S26 plug with a pedestal fan plugged in to it.
-* **Long press:** Stream RTÉ Radio on a Nest home mini. Background details can be found in a previous [post](https://rianoc.github.io/2020/08/08/Home-Assistant-Radio-Streaming/). The full automation resulted in:
+* **Long press:** Stream RTÉ Radio on a Nest home mini. Background details can be found in a previous [post]({{ site.url }}/2020/08/08/Home-Assistant-Radio-Streaming/). The full automation resulted in:
 
 ```yaml
 - id: '1597176597944'

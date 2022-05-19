@@ -5,7 +5,7 @@ excerpt: "Limiting phone charge using Home Assistant and Node-RED"
 date:   2020-07-21 21:20:00
 ---
 
-One of the biggest annoyances I have with my Samsung [S10e](https://rianoc.github.io/2019/09/21/SamsungS10E/) is it's idle power draw. Overnight when not being used it's drains close to 30% of it battery capacity. As a result I have to leave the phone plugged in overnight. This was a habit I lost when I had my Oneplus phones. Having some concerns about the long term effects on the phones battery I thought I could use Home Assistant to help.
+One of the biggest annoyances I have with my Samsung [S10e]({{ site.url }}/2019/09/21/SamsungS10E/) is it's idle power draw. Overnight when not being used it's drains close to 30% of it battery capacity. As a result I have to leave the phone plugged in overnight. This was a habit I lost when I had my Oneplus phones. Having some concerns about the long term effects on the phones battery I thought I could use Home Assistant to help.
 
 Items needed:
 * [Home Assistant](https://www.home-assistant.io/)

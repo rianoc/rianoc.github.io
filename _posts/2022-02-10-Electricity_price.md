@@ -5,7 +5,7 @@ excerpt: "Automate Electricity prices in Home Assistant"
 date:   2022-02-10 22:15:00
 ---
 
-I've been making some use of [Energy Management](https://www.home-assistant.io/blog/2021/08/04/home-energy-management/) in Home Assistant. I have several Samsung smart plugs [reporting](https://rianoc.github.io/2021/08/25/Samsung-Energy/) energy information.
+I've been making some use of [Energy Management](https://www.home-assistant.io/blog/2021/08/04/home-energy-management/) in Home Assistant. I have several Samsung smart plugs [reporting]({{ site.url }}/2021/08/25/Samsung-Energy/) energy information.
 
 My electricity tariff breaks down to four time windows:
 

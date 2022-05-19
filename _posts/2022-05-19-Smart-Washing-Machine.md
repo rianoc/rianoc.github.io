@@ -10,10 +10,10 @@ date:   2022-05-19 13:20:00
 Our washing machine which was in our house already when we arrived is a [Bosch Classixx 1400 Express](https://www.bosch-home.co.uk/supportdetail/product/WFO2867GB/15). Unfortunately it does not have a delay function allowing us to schedule when it runs. The reason for wanting this:
 
 * Convenience to schedule so if we are out of the house the clothes are not sitting wet waiting to be removed.
-* Economy to schedule when the [electricity tariff](https://rianoc.github.io/2022/02/10/Electricity_price/) is cheapest.
+* Economy to schedule when the [electricity tariff]({{ site.url }}/2022/02/10/Electricity_price/) is cheapest.
 * Efficiency to schedule when the grid is using the most renewable power sources.
 
-I looked for smart product which could press the start button to add the delay ability to the machine. Initially I was looking for Zigbee devices. The only item I could find was a [Third Reality Smart Switch Gen3](https://www.3reality.com/online-store/Third-Reality-Smart-Switch-Gen3-Zigbee-Version-p381658008]) but it was not going to be suitable for a number of reasons:
+I looked for smart product which could press the start button to add the delay ability to the machine. Initially I was looking for Zigbee devices. The only item I could find was a [Third Reality Smart Switch Gen3](https://www.3reality.com/online-store/Third-Reality-Smart-Switch-Gen3-Zigbee-Version-p381658008) but it was not going to be suitable for a number of reasons:
 
 * It's design covers the existing button meaning if it fails or battery run out you need to remove it to operate the machine.
 * The mechanism slides as it is made for US style light switches. This would have needed some adaptation to press the machine button.
@@ -33,7 +33,7 @@ I saw in the app that there is some NFC support but it requires their hub which 
 
 ## Monitoring power
 
-I added [SmartThing plug](https://rianoc.github.io/2021/08/25/Samsung-Energy/) to the washing machine which would monitor it's power usage and extend the Zigbee network.
+I added [SmartThing plug]({{ site.url }}/2021/08/25/Samsung-Energy/) to the washing machine which would monitor it's power usage and extend the Zigbee network.
 
 ![Washing machine power usage]({{ site.url }}/assets/images/washingMachinePower.PNG)
 
