@@ -45,4 +45,6 @@ Looking deeper at the Home Assistant statistics something interesting showed in 
 
 ![Washing machine power usage]({{ site.url }}/assets/images/washingMaching.PNG)
 
-The washing machine which is rated for 2000W never used above 250W. This pointed to the heating element being the possible failure. I have ordered the part and will update this post with the results soon.
+The washing machine which is rated for 2000W never used above 250W. This pointed to the heating element being the possible failure. I ordered the element and replaced the old one. Using the continuity tester on my multimeter showed that the old element had failed. After installation the machine now has the correct power profile in Home Assistant.
+
+![Washing machine power usage]({{ site.url }}/assets/images/washingMachingFixed.PNG)
