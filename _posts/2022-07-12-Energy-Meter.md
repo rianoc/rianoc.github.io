@@ -21,7 +21,9 @@ I was able to work around this somewhat for the current W usage but not for the 
 
 My W method uses a template to subtract the individual devices from the whole home usage. I choose the max of 0 and the calulated value at the end to prevent negative readings when the smart plugs register usage before the Frient reads the usage.
 
+{% raw %}
 ```yaml
+
 template:
   - sensor:
       - name: "Other Power"
@@ -34,3 +36,4 @@ template:
           {% set meter = states('sensor.electricity_meter_power') | float(default=0) %}
           {{ max(0,(meter - (dishwasher + server + washing_machine + dehumidifier))) }}
 ```
+{% endraw %}
