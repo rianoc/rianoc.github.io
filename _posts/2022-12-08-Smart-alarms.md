@@ -33,9 +33,11 @@ To get most value out of the Konnected board I looked through the docs and saw y
 
 Since I saw the option in the software still I thought I would try anyway. The main issue was that the board did not expose a 5V line like the add-on boards did. Luckily I had a small Sparkfun [power supply](https://www.sparkfun.com/products/13032) lying around. I wired this up to to the 12V adapter to give me a 5V source. Then I wired in my 3 2 meter long DS18B20 temperature probes with the data line going to a free zone on the Konnected Board and their +/- going to the Sparkfun board. The sensors then showed up in Home Assistant without issue.
 
+This [link]({{ site.url }}/assets/images/konnected.jpg) shows the full install in detail, messy wiring included. I did clean it up (somewhat) after but do not have a picture of that.
+
 My existing home heating system by [EPH](https://www.home-assistant.io/integrations/ephember/) has 1 temperature probe which tells me the temperature at the top of the tank only.
 
-![EPH Graph]({{ site.url }}/assets/images/EPH Graph.jpg)
+![EPH graph]({{ site.url }}/assets/images/EPH graph.jpg)
 
 Now with the Konnected board I have 3 additional sensors top/middle/bottom. This gives me much better insight into the water temperature in the tank.
 
