@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Smart Alarms"
-excerpt: "Smart Alarms"
+excerpt: "Integrating Smart Alarms with Home Assistant and monitoring hot water"
 date:   2022-12-28 20:25:00
 ---
 
-# Replacing legacy alarm with Yale Sync smart alarm
+## Replacing legacy alarm with Yale Sync smart alarm
 
 My house came a legacy hardwired alarm Aritech CS350 (discontinued 2006). I didn't trust it's reliability and wanted some remote monitoring functionality.
 
@@ -13,7 +13,7 @@ I wated something 100% stand alone so I went with a [Yale Sync](https://yalehome
 Generally I have been happy with it apart from needing to move one of the Smoke/Heat/PIR sensors as the PIR sensor was getting falsely triggered by its proximity to a radiator.
 I was easily able to bring this in to Home Assistant using the [Yale Smart Living](https://www.home-assistant.io/integrations/yale_smart_alarm/). It relies on cloud polling but that's fine for me. All it's sensors are battery powered and it's hub has a battery backup which means the unit functions in power outage.
 
-# Using Konnected and Alarmo
+## Using Konnected and Alarmo
 
 I removed the legacy alarm panel but did not remove the sensors. I wanted to see if I could get some value from them to augment the Yale alarm. For this I came across [Konnected](https://konnected.io/). I got the most basic [6 Zone](https://konnected.io/collections/shop-now/products/6-zone-konnected-alarm-panel-siren-output) board. It was $99 in Aug 22 when I bought which did feel high, now in Dec 22 it is $59 which is much more reasonable.
 
