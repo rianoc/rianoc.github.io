@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Making a washing machine smart"
-excerpt: "Making a washing machine smart"
+excerpt: "Making a washing machine smart with Home Assistant and Switchbot"
 date:   2022-05-19 13:20:00
 ---
 

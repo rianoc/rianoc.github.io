@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Scheduling Dishwasher"
-excerpt: "Scheduling an older dishwasher to run at a set time"
+title:  "Scheduling Dishwasher with Home Assistant and NFC tags"
+excerpt: "Scheduling an older dishwasher to run at a set time with Home Assistant and NFC tags"
 date:   2023-01-05 21:45:00
 ---
 
