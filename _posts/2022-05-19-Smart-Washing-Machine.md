@@ -48,3 +48,7 @@ Looking deeper at the Home Assistant statistics something interesting showed in 
 The washing machine which is rated for 2000W never used above 250W. This pointed to the heating element being the possible failure. I ordered the element and replaced the old one. Using the continuity tester on my multimeter showed that the old element had failed. After installation the machine now has the correct power profile in Home Assistant.
 
 ![Washing machine power usage]({{ site.url }}/assets/images/washingMachingFixed.PNG)
+
+### 2023/01/23 Update: Simplification
+
+Following on from [automating my dishwasher]({{ site.url }}/2023/01/05/Scheduling-Dishwasher) using only a smartplug I have done the same for the washing machine. The has allowed the SwitchBot to be used elsewhere.
